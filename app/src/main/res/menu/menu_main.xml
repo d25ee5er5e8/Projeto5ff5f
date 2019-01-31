@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.apptarefas.MainActivity">
+
+    <item
+        android:id="@+id/action_realizadas"
+        android:title="@string/realizadas"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_nao_realizadas"
+        android:title="@string/pendentes"
+        app:showAsAction="never" />
+
+</menu>

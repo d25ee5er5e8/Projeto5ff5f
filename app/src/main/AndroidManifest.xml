@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apptarefas">
+
+    <application
+        android:name=".persistencia.Aplicacao"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/tarefas"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".NovaTarefaActivity"
+            android:label="@string/nova_tarefa"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+
+        <activity
+            android:name=".TarefasPendentesActivity"
+            android:label="@string/pendentes"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+
+        <activity
+            android:name=".TarefasRealizadasActivity"
+            android:label="@string/realizadas"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/tarefas"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+    </application>
+
+</manifest>

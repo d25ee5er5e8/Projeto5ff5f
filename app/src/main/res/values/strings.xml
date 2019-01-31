@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AppTarefas</string>
+    <string name="action_settings">Settings</string>
+    <string name="tarefas">Tarefas</string>
+    <string name="realizadas">Realizadas</string>
+    <string name="realizada_nova_tarefa">Realizada?</string>
+    <string name="pendentes">Pendentes</string>
+    <string name="categoria">Categoria</string>
+    <string name="pessoal">Pessoal</string>
+    <string name="profissional">Profissional</string>
+    <string name="educacional">Educacional</string>
+    <string name="descricao">Descrição</string>
+    <string name="nova_tarefa">Nova Tarefa</string>
+    <string name="prioridade">Prioridade</string>
+    <string name="enviar">Enviar</string>
+    <string name="p1">1</string>
+    <string name="p2">2</string>
+    <string name="p3">3</string>
+    <string name="p4">4</string>
+    <string name="p5">5</string>
+    <string name="nao">Não</string>
+    <string name="sim">Sim</string>
+    <string name="toggle_button">ToggleButton</string>
+    <string name="mensagem_salva">Tarefa salva com sucesso</string>
+</resources>
